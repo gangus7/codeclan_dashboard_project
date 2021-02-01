@@ -14,20 +14,21 @@ This repository showcases a dashboard app created using R studio and Shiny funct
 Our team of four comprised David Currie, Mark Donaldson, Calum Sey and Geraldine Smith, all from CodeClan DE5 Data Analysis cohort.
 
 ## Process Methodology
-The team used data from the Scottish Government website, which required some cleaning and wrangling. The data sets required levels of filtering in order to allow the user to explore by different variables such as council area, health board, age and gender.
+The team used data from the Scottish Government website, which required some cleaning and wrangling. The data sets required levels of filtering in order to allow the user to explore by different variables such as local authority, population density and deprivation scale.
 
 ## Packages Used
-The main packages used for cleaning were `tidyverse` and `janitor`.  The packages used to manipulate the spacial data were `rgeos`, `sf`, `sp`, and `rgdal` to read the shapefiles.
+The main packages used for cleaning were `tidyverse`, `janitor`, `ggpubr`.  The packages used to manipulate the spacial data were `rgeos`, `sf`, `sp`, `raster`, `leaflet` and `rgdal` to read the shapefiles.
 
 ## App Functionality
-The app has four tabs which display data on different topics:
+The app has five tabs which display data on different topics:
 
-+ General heealth overview using life expectancy and life satisfaction data
-+ Alcohol related hospital admissions
-+ Drug related hospital discharges 
-+ Smoking survey responses
++ %s of Scottish females smoking and their obesity levels
++ Overview of Total Births and % low weight births
++ Low Weight Birth % by Area
++ Low Weight Birth % by deprivation rating 
++ Low Weight Birth % by population density
 
-Each tab allows the user to explore the data set by changing variables such as NHS health board, time period, age range and gender.
+Each tab allows the user to explore the data set by changing variables such as local authority, population density and deprivation scale.
 
 ## Images
 ### Overview
